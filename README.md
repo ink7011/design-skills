@@ -20,6 +20,8 @@
 - [ours/visual-qa-loop.md](ours/visual-qa-loop.md) — 视觉 QA 回路：看图才算完成
 - [ours/svg-craft.md](ours/svg-craft.md) — SVG 工艺笔记：渐变/裁切/对齐/导出
 - [ours/review-delivery.md](ours/review-delivery.md) — 评审交付模式：评审页/文档中心/一键启动器
+- [ours/html-web-design.md](ours/html-web-design.md) — **HTML 网页设计工艺**：深色高级感门户（令牌/组件/动效预算/多语言/交互质量门/验证方法）
+- [ours/badge-poster-design.md](ours/badge-poster-design.md) — **徽章/海报图片设计工艺**：规则先行/竞品调研五维/生成与多版本导出/使用规范（与 HTML 网页设计分开沉淀）
 
 ## 原则
 
