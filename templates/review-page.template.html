@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="color-scheme" content="light">
+<title>{{PROJECT}} Badge Round {{N}} 评审</title>
+<style>
+html{background:#fff;color-scheme:light}
+body{background:#fff;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;max-width:1060px;margin:40px auto;padding:0 24px;color:#111;line-height:1.5}
+h1{font-size:26px;margin:0 0 4px}
+h2{font-size:19px;margin:28px 0 0}
+p.sub{color:#666;margin:0 0 10px;font-size:14px}
+p.note{color:#444;font-size:14px;background:#f4f6f8;border-left:3px solid {{ACCENT}};padding:10px 14px;border-radius:4px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:18px 0}
+.item{border:1px solid #e5e5e5;border-radius:10px;padding:14px;background:#fff}
+.item h2{font-size:15px;margin:2px 0 10px}
+.item img{width:100%;height:auto;display:block;border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:10px 0 26px}
+th,td{border:1px solid #e5e5e5;padding:8px 10px;text-align:left;vertical-align:top}
+th{background:#f7f8fa}
+</style>
+</head>
+<body>
+<h1>{{PROJECT}} Badge · Round {{N}}</h1>
+<p class="sub">{{ONE_LINE_SUMMARY}} · {{DATE}}</p>
+<p class="note"><strong>决策依据</strong>：{{WHY}}<br><strong>用户修订历史</strong>：Rev B：{{...}}；Rev C（当前）：{{...}}</p>
+
+<table>
+<tr><th>Tier</th><th>视觉等级</th><th>差异化处理</th><th>点缀占比</th></tr>
+<tr><td>{{TIER_1}}</td><td>{{GRADE_1}}</td><td>{{TREATMENT_1}}</td><td>{{RATIO_1}}</td></tr>
+<tr><td>{{TIER_2}}</td><td>{{GRADE_2}}</td><td>{{TREATMENT_2}}</td><td>{{RATIO_2}}</td></tr>
+<tr><td>{{TIER_3}}</td><td>{{GRADE_3}}</td><td>{{TREATMENT_3}}</td><td>{{RATIO_3}}</td></tr>
+</table>
+
+<!-- one .grid block per tier, dark/light pairs; keep ?v= cache-busting on every src -->
+<div class="grid">
+<div class="item"><h2>{{TIER_1}} Dark</h2><img src="/outputs/{{PROJECT}}/{{ASSET_1_DARK}}.png?v={{VER}}" alt="{{TIER_1}}-dark"></div>
+<div class="item"><h2>{{TIER_1}} Light</h2><img src="/outputs/{{PROJECT}}/{{ASSET_1_LIGHT}}.png?v={{VER}}" alt="{{TIER_1}}-light"></div>
+</div>
+
+<p class="note">技术要点：{{CLIP_GRADIENT_NOTES}}</p>
+</body>
+</html>
