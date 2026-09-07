@@ -1,6 +1,6 @@
 # Design Skills
 
-设计技能收集库：**收集别人的，沉淀我们的。**
+设计技能收集库：**收集别人的，沉淀我们的，最后推荐自己的。**
 
 - `collected/` — 公开优秀设计资源/方法论的索引（只放链接 + 一句注解，不搬运内容，版权归原作者）
 - `ours/` — 个人沉淀的通用设计工艺笔记（全部为通用方法论，与任何具体项目无关）
@@ -22,6 +22,10 @@
 - [ours/review-delivery.md](ours/review-delivery.md) — 评审交付模式：评审页/文档中心/一键启动器
 - [ours/html-web-design.md](ours/html-web-design.md) — **HTML 网页设计工艺**：深色高级感门户（令牌/组件/动效预算/多语言/交互质量门/验证方法）
 - [ours/badge-poster-design.md](ours/badge-poster-design.md) — **徽章/海报图片设计工艺**：规则先行/竞品调研五维/生成与多版本导出/使用规范（与 HTML 网页设计分开沉淀）
+
+### Mine（自荐）
+
+- [ink7011/zine-composition-beauty](https://github.com/ink7011/zine-composition-beauty) — **构图之美 Zine**：把真实照片变成留白 zine 构图海报的可安装技能。照片以不规则撕纸碎片成为视觉锚点，60–80% 暖纸留白，黑色墨线把照片内的建筑/道路/枝干/地平线延伸进负空间，单支高饱和点缀色 + 极小编辑排版——与本库"海报图片工艺"配套的实战生成器（含 10 个示例）。
 
 ## 原则
 
