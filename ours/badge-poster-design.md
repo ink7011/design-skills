@@ -113,3 +113,8 @@
 ### 5. 验收回路
 图片资产同样走"看图才算完成"：导出后必须开图目检（缩放到最小使用尺寸再看一遍），
 有条件跑一次视觉 QA 回路（详见 visual-qa-loop.md）。
+
+### 6. 配套生成技能
+照片转 zine 构图海报的可安装技能见
+[zine-composition-beauty](https://github.com/ink7011/zine-composition-beauty)：
+撕纸碎片锚点 + 大留白 + 墨线延伸照片结构 + 单点缀色，与本节的克制基线同源。
