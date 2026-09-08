@@ -22,6 +22,7 @@
 - [ours/review-delivery.md](ours/review-delivery.md) — 评审交付模式：评审页/文档中心/一键启动器
 - [ours/html-web-design.md](ours/html-web-design.md) — **HTML 网页设计工艺**：深色高级感门户（令牌/组件/动效预算/多语言/交互质量门/验证方法）
 - [ours/html-review-methodology.md](ours/html-review-methodology.md) — **HTML 对抗性审查方法论**：Builder/Reviewer 分离、八类已知失败模式（CSS 静默丢失/JS 点击假阳性/删除未验证/选择器漂移/混合对齐/双视口/连锁反应/泄露面）、CDP 实测技术要点
+- [ours/html-screenshot-skill.md](ours/html-screenshot-skill.md) — **HTML 截图工艺 Skill**：无依赖 CDP 捕获流程 + 五个真实事故坑（视口静默失效→窄图/懒加载→黑块/入场动画→隐身/裁切坐标与流体壳/渲染像素验证）+ 交互态与交付打包
 - [ours/badge-poster-design.md](ours/badge-poster-design.md) — **徽章/海报图片设计工艺**：规则先行/竞品调研五维/生成与多版本导出/使用规范（与 HTML 网页设计分开沉淀）
 
 ### Mine（自荐）
