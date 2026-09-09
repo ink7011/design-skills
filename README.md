@@ -38,3 +38,6 @@
 ## License
 
 MIT（仅覆盖本仓库原创内容；收集条目版权归原作者）
+
+## ours
+- [ours/brand-identity-design.md](ours/brand-identity-design.md) — 把"徽章"重构为"品牌资产"：品牌系统优先 + 回避清单 + 强制自我评审门
